@@ -1,0 +1,39 @@
+.navbar-default
+{
+    background-color: #070e15;
+    margin-bottom: 0;
+    border:none;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav > li > a
+{
+    text-transform: uppercase;
+    color:#938999;
+    font-weight: ;
+}
+.navbar-default .navbar-nav > li > a:hover 
+{
+     background-color: #070e15;
+     color: darkslategrey; 
+}
+.navbar-default .navbar-nav > .active > a
+{
+    background-color: #222222;
+    color: #07a5df;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+
+    background-color: #070e15;
+    color:darkslategrey;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus 
+{
+    background-color: #222222;
+}
+.section
+{
+    background-image: url(../photo/fuck.jpg);
+    height: 620px;
+    
+}

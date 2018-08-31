@@ -1,0 +1,86 @@
+/* start global */
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+     box-sizing:border-box;
+   
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* end global */
+ 
+/* start navbar */
+.navbar
+{
+   font-size: 20px;
+    height: 0;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.navbar .brand 
+{
+    float: left;
+    width: 40%;
+    text-transform: uppercase;
+    font-family:cursive;
+    color: #1abc9c;
+}
+.navbar .links 
+{
+    float: left;
+    width: 60%;
+    margin-top: 15px;
+    
+}
+.navbar .links li
+{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0px 15px;
+    border-bottom: 1px solid transparent;
+    font-weight: bold;
+}
+.navbar .links li.active ,.navbar .links li:hover
+{
+    color: #1abc9c;
+    border-bottom: 1px solid #1abc9c
+}
+/* end navbar*/
+
+/* start header */
+.header
+{
+    background-image: url(../photo/header1.jpeg);
+    position: relative;
+}
+.header .overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center
+}
+
+
+/* end header */ 
+/* start framework */
+.clearfix
+{
+    clear: both;
+}
+/* end framework */

@@ -1,0 +1,318 @@
+body
+{
+    padding-top: 70px;
+   
+   
+}
+
+
+/* start navbar */
+.navbar-inverse .navbar-brand
+{
+    color:cadetblue;
+    font-size: 30px;
+    font-family:cursive;
+    font-weight:500;
+        
+}
+.navbar-nav > li > .dropdown-menu {
+   background-color: #333;
+    border-top: 1px solid red;
+    min-width: 200px;
+       
+}
+.dropdown-menu > li > a 
+{
+    color:darkgrey;
+    padding: 6px 20px;  
+    -webkit-transition:padding 0.5s ease;
+      -moz-transition:padding 0.5s ease;
+      -o-transition:padding 0.5s ease;
+   transition:padding 0.5s ease;
+         
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:darkgrey
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color:black;
+    background-color:red
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    background-color: red;
+    padding-left: 35px;
+}
+.dropdown-menu .divider 
+{
+   background-color: #9e1919;
+}
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+/* end navbar */
+
+
+/* slide show */
+.carousel-caption
+{
+    color:
+}
+.carousel-inner > .item > img
+{
+    width: 100%;
+    max-height: 500 px;
+    
+}
+/* slide show */
+
+
+/* start section About*/
+.About
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.About h1
+{
+    font-weight: bold;
+}
+.About .lead
+{
+    color:cornflowerblue;
+    font-size: 25px; 
+}
+.About h3 span ,h1 span
+{
+    color: cadetblue;
+}
+/* end section about */
+
+
+
+/* start section feaures */
+.feaures
+{
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feaures h1
+{
+    margin-bottom: 40px;
+}
+.feaures .feat
+{
+    margin-bottom: 50px;
+}
+.feaures .feat p
+{
+    line-height: 2em;
+}
+.feaures .feat span.glyphicon
+{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:darkred;
+}
+/* end section feaures /*
+
+/* start testimonial */
+
+.testimonials
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: cadetblue;
+}
+.testimonials .carousel-inner
+{
+    min-height: 160px;
+    
+}
+.testimonials .carousel-indicators 
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+   
+}
+.testimonials .carousel-indicators li
+{
+   text-indent: 0;
+    width:  70px;
+    height: 80px;
+    opacity: .5;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.testimonials .carousel-indicators li.active
+{
+     opacity: 1;
+     border: 2px solid cadetblue;
+     width:  70px;
+    height: 80px;
+}
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+}
+
+/* end testimonial*/
+
+
+/* start section price table */
+.price h1
+{
+    margin-bottom: 40px;
+}
+.price
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+}
+
+.price_box
+{
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px
+     
+}
+
+.price .price_box p
+{
+    color:darkgray;
+    width: 100px;
+    font-weight: bold;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+    -webkit-transtion-duration:0.7s;
+    -moz-transtion-duration:0.7s;
+    -o-transtion-duration:0.7s;    
+    transtion-duration:0.7s;
+}
+.price .price_box ul
+{
+   line-height: 250%;
+    font-size: 18px;
+}
+/* end section price table */
+
+ /* start section our team */
+
+.our_team
+{
+    background: url(../photo/7.jpg) no-repeat center center fixed ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+    width: 100%;
+}
+.our_team .team
+{
+    background: rgba(2,2,2,0.7);
+    color: #FFF;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.our_team h1
+{ 
+    margin-bottom: 120px;
+    
+}
+.our_team .team img
+{
+    max-width: 150px;
+    max-height: 150px;
+}
+.our_team .person
+{
+    margin-bottom: 40px;
+}
+/* end section our team */
+
+/*start section subscrib*/
+.subscribe
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EEE;
+}
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px; 
+}
+.subscribe p
+{
+    margin-bottom: 30px;
+     
+}
+/* end section subscrib */
+
+/* start section statics */
+.statics
+{
+    background: url("../photo/stat1.jpg") no-repeat center center fixed ;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+}
+.statics .stats
+{
+    margin-bottom: 35px;
+}
+.statics .data
+
+{
+    background-color: rgba(2,2,2,0.7);
+    color: #B6B5B5;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.statics h1
+{
+    margin-bottom: 40px;
+}
+.statics .per
+{
+    font-size: 50px;
+}
+.statics p
+{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.statics span
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+/* end section statics */

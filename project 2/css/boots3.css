@@ -1,0 +1,177 @@
+.navbar-default .navbar-collapse
+{
+    background-color: white;
+    
+}
+
+.navbar-default .navbar-nav > li > a 
+{
+    color:cadetblue;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bold;
+}
+
+.navbar-brand > img
+{
+    margin-top: -20px;
+}
+.div
+{
+    height: 40px;
+    background-color: rgba(153,217,234,0.9);
+    margin-top: 50px;
+}
+.career
+{
+    height: 700px;
+    background-image: url(../photo/career.png);
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+    margin-top: 0;
+}
+.ca
+{
+    color: blue;
+}
+.r
+{
+    color: red;
+}
+.ee
+{
+   color:yellow;
+}
+.as
+{
+    color:forestgreen;
+}
+.data
+{
+    width: 500px;
+    height:380px;
+    background-color:white;
+    margin: -70px auto;
+    padding: 25px ;
+    border: 1px solid white
+    
+}
+.about
+{
+    color:darkred;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: fantasy;
+  
+}
+.about2
+{
+    font-size: 25px;
+    font-family:cursive;
+}
+.about3
+{
+    font-weight: bold;
+    color: black;
+    
+}
+.data p
+{
+    color: gray;
+}
+.glyphicon
+{
+   color:#13599c;
+    font-size: 18px;
+}
+#data1 , #data2 , #data3 , #data4 , #data5
+{
+    font-size: 20px;
+    color:gray;
+    font-family:serif;
+}
+#data1
+{
+    padding: 35px;
+    color:dimgray;
+    
+}
+#data2
+{
+    padding: 19px;
+    
+}
+#data3
+{
+     padding: 35px;
+}
+#data4
+{
+     padding: 19px;
+}
+#data5
+{
+    padding: 35px;
+}
+.mar
+{
+    margin-top: 50px;
+}
+.sales
+{
+    color:#13599c;
+    font-size: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+.contact
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.contact p
+{
+    color:lightslategray;
+}
+.footer
+{
+    height: 190px;
+    background-color: rgba(153,217,234,0.9);
+    margin-top: 55px;
+    padding: 25px;
+}
+.foot li a
+{
+    color:darkslategray;
+    text-decoration: none;
+     font-family: 'Gloria Hallelujah', cursive;
+}
+.foot li a:hover
+{
+    color: red;
+}
+.foot
+{
+    margin-top: 15px;
+    text-align: center;
+}
+.foot li
+{
+    position: relative;
+    display: inline;
+    list-style-type: disc;
+    margin-left: 25px;
+    
+}
+
+.foots li
+{
+    margin-left: 15px;
+}
+.count
+{
+    text-align: center;
+    margin-top: 50px;
+    color:darkcyan;
+}
